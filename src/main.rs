@@ -9,7 +9,7 @@ use clap::Parser;
 use exif::{In, Tag, Value};
 use walkdir::WalkDir;
 
-/// Check that the EXIF date of .jpg files matches their file created/modified dates.
+/// Check that the EXIF date of .jpg and .jpeg files matches their file created/modified dates.
 #[derive(Parser)]
 #[command(version, about)]
 struct Args {
