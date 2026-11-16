@@ -1,5 +1,7 @@
 # exifsync
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A small command-line tool that checks whether the file dates of your JPEG photos match the date stored in their EXIF data, and can correct the file dates if they don't.
 
 ## Why
@@ -86,3 +88,9 @@ Only mismatched files are listed, followed by the totals. The `updated` line and
 ## Using it with archivejpg
 
 If you also use [archivejpg](https://github.com/kreaton/archivejpg), run `exifsync --update` on the **source** folder before archiving. Updating only the archive makes archivejpg treat those photos as new on its next run and store them again. See the archivejpg README for details.
+
+## License & Authorship
+
+This project is distributed under the terms of the [MIT License](LICENSE).
+
+**AI authorship note:** Most of the source code in this repository was generated with AI coding agents (Claude Code), under my direction and review. Purely AI-generated material may not be eligible for copyright protection in some jurisdictions. To the extent any part of this project is protected by copyright, it is licensed under the MIT License, and the license's warranty and liability disclaimers apply to the project as a whole.
