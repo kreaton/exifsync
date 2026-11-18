@@ -1,6 +1,9 @@
 # exifsync
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kreaton/exifsync?style=flat&logo=github&color=yellow)](https://github.com/kreaton/exifsync/stargazers)
+
+⭐ If exifsync earns a place on your machine, [star it on GitHub](https://github.com/kreaton/exifsync) — it's free, made by one developer, and stars are how other people find it.
 
 A small command-line tool that checks whether the file dates of your JPEG photos match the date stored in their EXIF data, and can correct the file dates if they don't.
 
